@@ -1,0 +1,10 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{itemData.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p>{{itemData.description}}</p>
+        <mat-slide-toggle [(ngModel)]="itemData.completed">Hecho</mat-slide-toggle>
+    </mat-card-content>
+</mat-card>
+  
